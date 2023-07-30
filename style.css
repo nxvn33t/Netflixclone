@@ -1,0 +1,240 @@
+*{
+  padding:0;
+  margin:0;
+}
+body{
+  font-family: 'Heebo', sans-serif;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)),url(/bckgrndimg.png);
+  background-size:1400px 674px ;
+  background-repeat: no-repeat;
+
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+nav{
+  background-color: transparent;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav div img{
+  height:89px;
+  position: absolute;
+  left: 3%;
+  top: 0;
+}
+.leftnav{
+  float:left;
+  padding-left: -12px;
+}
+.rightnav{
+  padding-top: 15px;
+  justify-content: center;
+  float: right;
+}
+.signin{
+  float:right; 
+  color:white;
+  background-color: #E50914;
+  padding:7px 16px;
+  border-radius: 5px;
+  position: absolute;
+  right:3%
+}
+select{ 
+  color: white;
+  padding: 6px 36px;
+   float:right;
+   position: absolute;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  right:9%;
+}
+.firstsection{
+  display: inline-flexbox;
+  align-items: center;
+  color:white;
+   margin:210px 380px;
+}
+main div h4{
+  margin-top: 20px;;
+  margin-left:170px;
+}
+main div h3{
+  font-size:18px;
+  margin-top: 20px;
+}
+.inputemail{
+  padding-top: 20px;
+  display:flex;
+}
+main div input{
+  width:376px;
+ padding:24px 16px 8px;
+  background-color:transparent;
+   border: 1px solid #ffffff;
+  border-radius: 5px;
+} 
+::placeholder{
+  font-size:19px;
+  font-weight: bold;
+  /* text-align: center; */
+  color:#e1d6d6;
+}
+main div button{
+  margin-left: 12px;
+  width: 170px;
+}
+.getstart{
+  color:white;
+  background-color: #E50914;
+   border: 1px solid #E50914;
+  padding:12px 24px;
+  border-radius: 9px;
+}
+hr{
+    height: 7px;
+        background-color: #2c2a2a;
+  border: 0px;
+}
+.leftsection2{
+  height: 80vh;
+  background-color: #0d0d0d;
+  display: flex;
+}
+.secondsection{
+  color:white;
+}
+main2 div h1{
+  font-size: 45px;
+  padding-top: 120px;
+  padding-left: 130px;
+}
+main2 div h4{
+  font-size: 30px;
+  padding-left: 130px;
+  display: flex;
+}
+.tvimg{
+  padding-top: 111px;
+  padding-right: 55px;
+  float:right;
+  width:50%;
+}
+.thirdsection{
+  height: 80vh;
+  background-color:#0d0d0d ;
+}
+.thirdimg{
+  float: left;
+  padding-left: 55px;
+  padding-top: 30px;
+  width:20%;
+}
+.right3rd{
+  padding-top: 111px;
+  padding-right: 55px;
+  position:absolute;
+  right:0;
+  color:white;
+}
+main3 div h1{
+  float: right;
+   font-size: 45px;
+}
+main3 div h4{
+  
+  float: right;
+  display: flex;
+  font-size: 30px;
+}
+.h3ofmain3{
+  display: flex;
+}
+.fourthsection{
+  height: 80vh;
+  background-color: #0d0d0d;
+   display: flex;
+}
+.fourthtext{
+   color:white;
+}
+main4 div h1{
+   font-size: 45px;
+  padding-top: 120px;
+  padding-left: 130px;
+}
+main4 div h3{
+  font-size: 30px;
+  padding-left: 130px;
+  display: flex;
+}
+.fourthimg{
+  padding-top: 91px;
+  padding-right: 55px;
+  float:right;
+  width:80%;
+}
+.fifthsection{
+  height: 125vh;
+  background-color: #0d0d0d;
+  display: flex;
+  
+}
+.fifthead{
+  
+   padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.fifthtext{
+  text-align: center;
+   color:white;
+  /* padding-left: 35%;
+  padding-top: 20px; */
+  /* padding-bottom: 40px; */
+}
+.questions{
+  padding-top: 140px;
+  padding-right: 1000px;
+}
+main5 div button{
+  text-align: left;
+  padding: 24px;
+  border: 1px solid grey;
+  border-radius: 15px;
+  background-color:grey ;
+   position: absolute;
+  width: 700px;
+  
+}
+button:hover {
+  background-color: #444141;
+  color: white;
+}
+footer{
+  background-color: #0d0d0d;
+  height : 170px;
+}
+
+.foot{
+  display:flex;
+  padding:23px 100px;
+  justify-content: space-evenly;
+}
+.foot ul{
+  color: white;
+  list-style: none;
+}
+.foot-right{
+  text-align: center;
+  color: grey;
+}
+footer ul li a:hover{
+  color: #0e1a71;
+  
+}
